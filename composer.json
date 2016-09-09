@@ -6,6 +6,7 @@
         "framework"
     ],
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
     	{
     		"name": "Ivan Lam",
