@@ -1,0 +1,33 @@
+{
+    "name": "ivanszl/iSwift",
+    "description": "iSwift light PHP Framework",
+    "keywords": [
+        "iSwift",
+        "framework"
+    ],
+    "license": "MIT",
+    "authors": [
+    	{
+    		"name": "Ivan Lam",
+    		"email": "ivan.lin.1985@gmail.com"
+    	}
+    ],
+    "require": {
+        "php": ">=5.3.9",
+        "ext-mbstring": "*",
+        "ext-ctype": "*",
+        "lib-pcre": "*",
+        "j4mie/paris": "v1.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "iSwift\\": "framework/"
+        }
+    },
+    "bin": [
+        "framework/iswift"
+    ]
+}
